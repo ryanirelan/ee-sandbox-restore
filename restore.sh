@@ -22,19 +22,19 @@
 # ----------------------------------------------------            
 
 # MySQL Settings
-mysql_username='root'      
-mysql_password='root'
-database='eesandbox'
+mysql_username=''      
+mysql_password=''
+database=''
 #-------------------------
 
 # Where you keep your files used for restoring (sql file and tar.gz file)
-restore_files_location='/Users/ryan/projects/code/default-ee' # no trailing slash
+restore_files_location='/path/to/restore/files' # no trailing slash
 
 # the name of your sandbox directory
 sandbox_name='eesandbox'
 
 # Where you want the restore installed
-destination='/Users/ryan/Sites' # no trailing slash
+destination='/path/to/destination' # no trailing slash
 
 # the database dump file (.sql)
 sql_file='default-ee.sql'
