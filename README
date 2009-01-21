@@ -1,0 +1,21 @@
+# ////////////////////////////////////////////////////
+# EE SANDBOX RESTORE
+# by Ryan Irelan, Mijingo, LLC 
+# http://eeinsider.com
+# http://eescreencasts.com
+# http://mijingo.com
+# http://ryanirelan.com
+# ////////////////////////////////////////////////////
+
+# *******************************************************
+# Please Read: 
+# BY USING THIS SCRIPT YOU ASSUME ALL RESPONSIBILITY FOR 
+# ITS USE AND ABSOLVE MIJINGO, LLC OF ANY LIABILITY AND/OR 
+# RESPONSIBILITY OF ANY KIND. USE AT YOUR OWN RISK. 
+# *******************************************************
+
+Description:
+
+This is a shell script that automates the process of rebuilding a fresh ExpressionEngine install. It can be destructive if not used properly. Every time you run it, it will completely destroy the specified database and replace it with the one from your specified .sql file.
+
+SEE THIS ARTICLE FOR DETAILS: http://eeinsider.com/articles/automatically-rebuilding-an-ee-sandbox
